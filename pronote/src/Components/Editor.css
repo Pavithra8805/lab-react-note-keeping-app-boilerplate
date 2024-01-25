@@ -1,0 +1,59 @@
+#container {
+    padding: 60px 180px 0px 60px;
+    height: 100vh;
+    background-color: #3867D6;
+    display: flex;
+    justify-content: start;
+}
+
+#input-container {
+    height: 400px;
+    width: 650px;
+    margin-right: 100px;
+}
+
+#input {
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color: #244cab;
+    border: 1px solid rgb(0, 20, 91);
+}
+
+#input:focus {
+    border: 1px solid rgb(0, 20, 91);
+    outline: 2px solid rgb(0, 0, 0);
+}
+
+#pronote-container {
+    height: 460px;
+    width: 500px;
+}
+
+#pronote {
+    height: 100%;
+    width: 100%;
+    background-color: #464646;
+    border-radius: 6px;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.619);
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    overflow-wrap: break-word;
+
+}
+
+#input-container h2 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: rgb(235, 235, 235);
+}
